@@ -1,0 +1,23 @@
+/* Цветовое подкрашивание иконок по типу файла */
+.file-icon[data-kind="folder"]   { color: var(--accent); }
+.file-icon[data-kind="image"]    { color: #f5a97f; }
+.file-icon[data-kind="video"]    { color: #ed8796; }
+.file-icon[data-kind="audio"]    { color: #c6a0f6; }
+.file-icon[data-kind="pdf"]      { color: #e78284; }
+.file-icon[data-kind="code"]     { color: #8caaee; }
+.file-icon[data-kind="other"]    { color: var(--text-muted); }
+
+.file-icon[data-ext="zip"],
+.file-icon[data-ext="rar"],
+.file-icon[data-ext="7z"],
+.file-icon[data-ext="tar"],
+.file-icon[data-ext="gz"] { color: #eed49f; }
+
+.file-icon[data-ext="py"]   { color: #3776ab; }
+.file-icon[data-ext="js"]   { color: #f7df1e; }
+.file-icon[data-ext="ts"]   { color: #3178c6; }
+.file-icon[data-ext="html"] { color: #e34c26; }
+.file-icon[data-ext="css"]  { color: #1572b6; }
+.file-icon[data-ext="rs"]   { color: #dea584; }
+.file-icon[data-ext="go"]   { color: #00add8; }
+.file-icon[data-ext="rb"]   { color: #cc342d; }

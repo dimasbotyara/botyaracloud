@@ -1,0 +1,53 @@
+/* Планшет */
+@media (max-width: 900px) {
+    .search-input { width: 180px; }
+    .view-list .file-item {
+        grid-template-columns: 36px 1fr 80px 40px;
+    }
+    .view-list .file-date { display: none; }
+}
+
+/* Мобильный */
+@media (max-width: 600px) {
+    .content { padding: 12px; }
+    .topbar { padding: 10px 12px; gap: 6px; flex-wrap: wrap; }
+    .brand-name { display: none; }
+    .search-wrap { order: 10; width: 100%; }
+    .search-input { width: 100%; }
+
+    .navbar { gap: 6px; }
+    .breadcrumb { font-size: 13px; }
+
+    .view-list .file-item {
+        grid-template-columns: 32px 1fr auto 36px;
+        padding: 10px;
+        gap: 10px;
+    }
+    .view-list .file-size { font-size: 12px; }
+    .view-list .file-date { display: none; }
+    .view-list .file-icon { font-size: 20px; }
+
+    .view-grid .file-list {
+        grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    }
+
+    .vaults-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modal { padding: 0; }
+    .modal-window {
+        max-width: 100%; max-height: 100vh;
+        border-radius: 0; height: 100vh;
+    }
+
+    .zip-progress {
+        left: 12px; right: 12px; bottom: 12px;
+        min-width: 0;
+    }
+}
+
+/* Совсем узкий */
+@media (max-width: 380px) {
+    .icon-btn { min-width: 34px; height: 34px; padding: 0 8px; }
+}

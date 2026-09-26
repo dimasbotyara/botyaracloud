@@ -1,0 +1,151 @@
+/* Geist */
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/Geist/geist-sans-latin-400-normal.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/Geist/geist-sans-latin-500-normal.woff2') format('woff2');
+    font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/Geist/geist-sans-latin-600-normal.woff2') format('woff2');
+    font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/Geist/geist-sans-latin-700-normal.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* Inter — latin */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-latin-400-normal.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-latin-500-normal.woff2') format('woff2');
+    font-weight: 500; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-latin-600-normal.woff2') format('woff2');
+    font-weight: 600; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-latin-700-normal.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+/* Inter — cyrillic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-cyrillic-400-normal.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-cyrillic-500-normal.woff2') format('woff2');
+    font-weight: 500; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-cyrillic-600-normal.woff2') format('woff2');
+    font-weight: 600; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/inter-cyrillic-700-normal.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+
+/* Manrope — latin + cyrillic */
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-latin-400-normal.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-latin-500-normal.woff2') format('woff2');
+    font-weight: 500; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-latin-600-normal.woff2') format('woff2');
+    font-weight: 600; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-latin-700-normal.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+    unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-cyrillic-400-normal.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-cyrillic-500-normal.woff2') format('woff2');
+    font-weight: 500; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-cyrillic-600-normal.woff2') format('woff2');
+    font-weight: 600; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope/manrope-cyrillic-700-normal.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+    unicode-range: U+0400-04FF;
+}
+
+/* Fira Code */
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode/fira-code-latin-400-normal.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode/fira-code-latin-500-normal.woff2') format('woff2');
+    font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode/fira-code-latin-700-normal.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* Symbols Nerd Font */
+@font-face {
+    font-family: 'Symbols Nerd Font';
+    src: url('../fonts/Symbols/SymbolsNerdFont-Regular.ttf') format('truetype');
+    font-weight: normal; font-style: normal; font-display: block;
+}
+@font-face {
+    font-family: 'Symbols Nerd Font Mono';
+    src: url('../fonts/Symbols/SymbolsNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal; font-style: normal; font-display: block;
+}
