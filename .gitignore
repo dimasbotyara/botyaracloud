@@ -1,0 +1,47 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ===== IDE / Editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== botyaracloud specific =====
+# База данных с пользовательскими настройками
+botyaracloud.db
+botyaracloud.db-journal
+*.sqlite
+*.sqlite3
+
+# Пользовательские файлы в хранилищах (сохраняем только структуру)
+vaults/*
+!vaults/.gitkeep
+
+# Логи
+*.log
+logs/
+
+# ===== OS =====
+.Trash-*
+$RECYCLE.BIN/
+desktop.ini
