@@ -6,14 +6,12 @@
 
 *Think `python -m http.server`, but on steroids — with real-time updates, previews, themes, and a slick file explorer UI.*
 
-![Python CI](https://github.com/dimasbotyara/botyaracloud/actions/workflows/python-app.yml/badge.svg)
-![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
-![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
-![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python CI](https://img.shields.io/github/actions/workflow/status/dimasbotyara/botyaracloud/python-app.yml?branch=main&style=for-the-badge&logo=github-actions&logoColor=white&label=Python%20CI)](https://github.com/dimasbotyara/botyaracloud/actions)
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.0-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-5.3-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/dimasbotyara/botyaracloud/pulls)
 
 [✨ Features](#-features) •
