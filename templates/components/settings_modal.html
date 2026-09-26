@@ -1,0 +1,56 @@
+<div id="settings-modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-backdrop" data-close="settings"></div>
+  <div class="modal-window">
+    <header class="modal-header">
+      <h2 data-i18n="settings_title">Настройки</h2>
+      <button class="icon-btn" data-close="settings" aria-label="Close">
+        <span class="nf">&#xf00d;</span>
+      </button>
+    </header>
+    <div class="modal-body">
+
+      <section class="settings-section">
+        <h3 data-i18n="settings_language">Язык</h3>
+        <div class="segmented" data-setting="language">
+          <button data-value="auto" data-i18n="lang_auto">Авто</button>
+          <button data-value="ru">Русский</button>
+          <button data-value="en">English</button>
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h3 data-i18n="settings_theme">Тема</h3>
+        <div class="theme-grid" id="theme-grid">
+          <!-- Заполняется JS -->
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h3 data-i18n="settings_accent">Акцентный цвет</h3>
+        <div class="accent-grid" id="accent-grid">
+          <!-- Заполняется JS -->
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h3 data-i18n="settings_ui_font">Шрифт интерфейса</h3>
+        <div class="segmented" data-setting="ui_font">
+          <button data-value="geist" style="font-family:'Geist',sans-serif">Geist</button>
+          <button data-value="inter" style="font-family:'Inter',sans-serif">Inter</button>
+          <button data-value="manrope" style="font-family:'Manrope',sans-serif">Manrope</button>
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h3 data-i18n="settings_filename_font">Шрифт названий файлов</h3>
+        <div class="segmented" data-setting="filename_font">
+          <button data-value="geist" style="font-family:'Geist',sans-serif">Geist</button>
+          <button data-value="inter" style="font-family:'Inter',sans-serif">Inter</button>
+          <button data-value="manrope" style="font-family:'Manrope',sans-serif">Manrope</button>
+          <button data-value="fira" style="font-family:'Fira Code',monospace">Fira Code</button>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>

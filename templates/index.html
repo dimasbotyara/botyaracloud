@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-header">
+  <h1 data-i18n="vaults_title">Хранилища</h1>
+  <p class="page-subtitle" data-i18n="vaults_subtitle">Выберите хранилище для просмотра файлов</p>
+</section>
+
+<div id="vaults-list" class="vaults-grid">
+  <div class="loading"><span class="nf spin">&#xf021;</span></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.PAGE = { type: 'vaults' };
+</script>
+{% endblock %}

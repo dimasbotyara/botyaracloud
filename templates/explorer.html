@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block topbar_actions %}
+  <div class="search-wrap">
+    <span class="nf search-icon">&#xf002;</span>
+    <input type="text" id="search-input" class="search-input"
+           placeholder="Поиск..." data-i18n-placeholder="search_placeholder">
+  </div>
+  <button id="btn-view-toggle" class="icon-btn" title="View mode" aria-label="View mode">
+    <span class="nf" id="view-toggle-icon">&#xf00b;</span>
+  </button>
+  <div class="sort-wrap">
+    <button id="btn-sort" class="icon-btn" title="Sort" aria-label="Sort">
+      <span class="nf">&#xf160;</span>
+    </button>
+    <div id="sort-menu" class="dropdown-menu hidden">
+      <button data-sort="name"><span class="nf">&#xf15d;</span> <span data-i18n="sort_name">Имя</span></button>
+      <button data-sort="size"><span class="nf">&#xf1c0;</span> <span data-i18n="sort_size">Размер</span></button>
+      <button data-sort="modified"><span class="nf">&#xf017;</span> <span data-i18n="sort_date">Дата</span></button>
+      <button data-sort="kind"><span class="nf">&#xf07b;</span> <span data-i18n="sort_type">Тип</span></button>
+      <hr>
+      <button data-order="asc"><span class="nf">&#xf160;</span> <span data-i18n="sort_asc">По возрастанию</span></button>
+      <button data-order="desc"><span class="nf">&#xf161;</span> <span data-i18n="sort_desc">По убыванию</span></button>
+    </div>
+  </div>
+{% endblock %}
+
+{% block content %}
+<div class="navbar">
+  <div class="nav-buttons">
+    <button id="btn-back" class="icon-btn" title="Back" aria-label="Back">
+      <span class="nf">&#xf060;</span>
+    </button>
+    <button id="btn-forward" class="icon-btn" title="Forward" aria-label="Forward">
+      <span class="nf">&#xf061;</span>
+    </button>
+    <button id="btn-up" class="icon-btn" title="Up" aria-label="Up">
+      <span class="nf">&#xf062;</span>
+    </button>
+  </div>
+  <nav id="breadcrumb" class="breadcrumb"></nav>
+</div>
+
+<div id="explorer" class="explorer view-list">
+  <div class="loading"><span class="nf spin">&#xf021;</span></div>
+</div>
+
+<div id="search-results" class="explorer hidden"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.PAGE = { type: 'explorer', initialPath: "{{ initial_path|e }}" };
+</script>
+{% endblock %}

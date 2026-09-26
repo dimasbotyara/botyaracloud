@@ -1,0 +1,35 @@
+<div id="viewer-modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-backdrop" data-close="viewer"></div>
+  <div class="modal-window viewer-window">
+    <header class="modal-header">
+      <div class="viewer-title">
+        <span class="nf" id="viewer-icon"></span>
+        <span id="viewer-name"></span>
+      </div>
+      <div class="viewer-actions">
+        <a id="viewer-download" class="icon-btn" title="Download" download>
+          <span class="nf">&#xf019;</span>
+        </a>
+        <button class="icon-btn" data-close="viewer" aria-label="Close">
+          <span class="nf">&#xf00d;</span>
+        </button>
+      </div>
+    </header>
+    <div class="modal-body viewer-body" id="viewer-body"></div>
+  </div>
+</div>
+
+<!-- Прогресс сжатия -->
+<div id="zip-progress" class="zip-progress hidden">
+  <div class="zip-progress-inner">
+    <div class="zip-progress-title">
+      <span class="nf spin">&#xf021;</span>
+      <span data-i18n="zipping">Упаковка...</span>
+      <span id="zip-progress-name"></span>
+    </div>
+    <div class="zip-progress-bar">
+      <div class="zip-progress-fill" id="zip-progress-fill"></div>
+    </div>
+    <div class="zip-progress-stats" id="zip-progress-stats"></div>
+  </div>
+</div>
